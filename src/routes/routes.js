@@ -10,6 +10,5 @@ router.post('/add',RevistaController.agregar) // escucha un nueva ruta del metod
 router.get('/delete/:id',RevistaController.eliminar)
 router.get('/update/:id',RevistaController.editar)
 router.post('/update/:id',RevistaController.update)
-router.get('/autos',RevistaController.vistaAuto)
 module.exports = router
 

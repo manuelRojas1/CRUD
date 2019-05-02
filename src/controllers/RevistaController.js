@@ -29,12 +29,7 @@ controller.editar = (req, res) =>{
         
 }
 
-controller.vistaAuto =(req,results)=>{
     
-    res.render("vistaAutos",{
-        data: results
-    })
-}
 controller.update = (req, res) =>{
     const {id}= req.params
     const newRevista = req.body
